@@ -24,7 +24,7 @@
 
 /* header section start */
 .heading-img{
-
+   text-align: center;
 }
 .brand{
     text-align: center;
@@ -42,6 +42,15 @@
    font-size: 20px;
    margin-top: 10px;
 }
+/* text and button end */
+
+/* now do image */
+.group-img>img{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    
+}
 /* media query */
 @media screen and (max-width:576px) {
     .nav{
@@ -53,5 +62,8 @@
     }
     .brand{
         padding: 0 15px 0 15px;
+    }
+    .group-img>img{
+        width: 100%;
     }
 }
