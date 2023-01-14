@@ -22,6 +22,26 @@
 }
 /* header nav end  */
 
+/* header section start */
+.heading-img{
+
+}
+.brand{
+    text-align: center;
+}
+.new-ti{
+   font-size: 40px;
+   font-weight: 800;
+}
+.explore-btn{
+   background-color: rgb(249, 164, 5);
+   color: white;
+   border: none;
+   border-radius: 5px;
+   padding: 20px;
+   font-size: 20px;
+   margin-top: 10px;
+}
 /* media query */
 @media screen and (max-width:576px) {
     .nav{
@@ -30,5 +50,8 @@
     .head-ti{
         text-align: center;
         padding-top: 10px;
+    }
+    .brand{
+        padding: 0 15px 0 15px;
     }
 }
