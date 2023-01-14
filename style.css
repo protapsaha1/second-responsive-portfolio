@@ -1,0 +1,22 @@
+/* header part */
+.header{
+     background-color: bisque;
+     
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+
+}
+.head-ti{
+     font-size: 30px;
+     font-weight: 700;
+}
+.menu>ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    color: black;
+    font-weight: 600;
+    margin-top: 30px;
+}
