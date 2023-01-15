@@ -54,9 +54,6 @@
 }
 
 /* main body part style */
-.main-container{
-    
-}
 .imgs{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -116,13 +113,7 @@
     background-color:rgb(243, 181, 65);
 }
 /* new section start */
-.block{
-    display: flex;
-    padding-left: 200px;
-}
-.multi{
 
-}
 .art-icle{
     text-align: left;
 }
